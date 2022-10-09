@@ -10,7 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Link href='/users'><a>Users</a></Link>
-    <Link href='/post'><a>Post</a></Link>
+    <Link href='/posts'><a>Post</a></Link>
+    <Link href='/todos'><a>Todos</a></Link>
       
     </div>
   )
