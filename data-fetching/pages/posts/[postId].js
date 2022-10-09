@@ -13,6 +13,7 @@ export default function Post({post}){
     <div>
      <h2>{post.id} . {post.title}</h2>
      <h3>{post.body}</h3>
+     
     </div>
   )
 };
@@ -21,15 +22,8 @@ export async function getStaticPaths(){
   return{
     paths:[
       {
-        params:{postId: '1'}
-      },
-      {
-        params:{postId: '2'}
-      },
-      {
-        params:{postId: '3'}
-      },
-     
+        params: {postId: '1'}
+      }
     ],
     fallback: true,
   }

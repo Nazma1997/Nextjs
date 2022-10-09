@@ -9,7 +9,9 @@ export default function PostList({posts}){
         <div key={post.id}>
           <Link href={`/posts/${post.id}`} passHref>
             <h1>{post.id} . {post.title}</h1>
+            
           </Link>
+          <hr/>
 
         </div>
       ))}
