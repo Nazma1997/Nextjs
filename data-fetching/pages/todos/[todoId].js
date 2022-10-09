@@ -10,15 +10,20 @@ export default function Todo({todo}){
 }
 
 export async function getStaticPaths(){
-  return{
-    paths:[
-      {
-        params: {todoId: '1'}
-      },
-      {
-        params: {todoId: '10'}
+  const response =  await fetch('https://jsonplaceholder.typicode.com/todos')
+  const data = await response.json()
+
+  const paths = data.map(todo => {
+    
+    return{
+      params:{
+         todoId: `${todo.id}`
       }
-    ],
+    }
+  })
+
+  return{
+    paths,
     fallback: false
   }
 }
