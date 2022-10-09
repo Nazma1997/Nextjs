@@ -3,8 +3,10 @@
 export default function Todo({todo}){
   return(
     <div>
-        <h1>{todo.id} . {todo.title}</h1>
         <h3>Show Single Todo</h3>
+        <h1>{todo.id} . {todo.title}</h1>
+        
+        
     </div>
   )
 }
