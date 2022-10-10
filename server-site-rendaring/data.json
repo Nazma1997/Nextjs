@@ -1,0 +1,29 @@
+{
+  "news":[
+    {
+      "id": 1,
+      "title": "Bangla News",
+      "desc": "All news are appeared here Firstly"
+    },
+    {
+      "id": 2,
+      "title": "English News",
+      "desc": "All news are appeared here Firstly"
+    },
+    {
+      "id": 3,
+      "title": "Pakistani News",
+      "desc": "All news are appeared here Firstly"
+    },
+    {
+      "id": 4,
+      "title": "Indian News",
+      "desc": "All news are appeared here Firstly"
+    },
+    {
+      "id": 5,
+      "title": "Africanian News",
+      "desc": "All news are appeared here Firstly"
+    }
+  ]
+}
