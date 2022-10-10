@@ -3,27 +3,32 @@
     {
       "id": 1,
       "title": "Bangla News",
-      "desc": "All news are appeared here Firstly"
+      "desc": "All news are appeared here Firstly",
+      "category": "sports"
     },
     {
       "id": 2,
       "title": "English News",
-      "desc": "All news are appeared here Firstly"
+      "desc": "All news are appeared here Firstly",
+      "category": "politics"
     },
     {
       "id": 3,
       "title": "Pakistani News",
-      "desc": "All news are appeared here Firstly"
+      "desc": "All news are appeared here Firstly",
+      "category": "sports"
     },
     {
       "id": 4,
       "title": "Indian News",
-      "desc": "All news are appeared here Firstly"
+      "desc": "All news are appeared here Firstly",
+      "category": "politics"
     },
     {
       "id": 5,
       "title": "Africanian News",
-      "desc": "All news are appeared here Firstly"
+      "desc": "All news are appeared here Firstly",
+      "category": "sports"
     }
   ]
 }
