@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shirt",
+      "price": 3000,
+      "description": "Here are all brand new products likes shirt , pant etc"
+    },
+    {
+      "id": 2,
+      "name": "Pant",
+      "price": 2000,
+      "description": "Here are all brand new products likes shirt , pant etc"
+    },
+    {
+      "id": 3,
+      "name": "Sari",
+      "price": 100,
+      "description": "Here are all brand new products likes shirt , pant etc"
+    },
+    {
+      "id": 4,
+      "name": "Longi",
+      "price": 3000,
+      "description": "Here are all brand new products likes shirt , pant etc"
+    },
+    {
+      "id": 5,
+      "name": "Fork",
+      "price": 300000,
+      "description": "Here are all brand new products likes shirt , pant etc"
+    }
+  ]
+}
