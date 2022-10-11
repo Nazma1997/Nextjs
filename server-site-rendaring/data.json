@@ -30,5 +30,13 @@
       "desc": "All news are appeared here Firstly",
       "category": "sports"
     }
+  ],
+  "post":[
+    {
+      "id": 1,
+      "name": "SWR hooks",
+      "title": "Client Site data fetching by SWR hooks"
+    }
+
   ]
 }
