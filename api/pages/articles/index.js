@@ -8,7 +8,7 @@ export default function Articles(){
     const response = await fetch('/api/articles')
     const data = await response.json()
     setArticles(data)
-  }
+  } 
 
   const submitComment = async()=> {
     const response = await fetch('api/articles', {
@@ -20,7 +20,18 @@ export default function Articles(){
     })
 
     const data = await response.json()
-    console.log(data)
+    // console.log(data)
+  }
+
+
+  const deleteArticle = async (articleId) =>{
+    const response = await fetch(`/api/articles/${articleId}`, {
+      method: 'DELETE',
+    })
+
+    const data = await response.json()
+    // console.log(data)
+    loadArticles()
   }
   
   return(
@@ -33,6 +44,7 @@ export default function Articles(){
           return(
             <div key={article.id}>
             <h2>{article.id} {article.text}</h2>
+            <button onClick={() => deleteArticle(article.id)}>Delete</button>
           </div>
           )
         })
